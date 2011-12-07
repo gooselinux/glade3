@@ -1,0 +1,11 @@
+diff -urNp glade3-3.6.2.orig/data/gladeui-1.0.pc.in glade3-3.6.2/data/gladeui-1.0.pc.in
+--- glade3-3.6.2.orig/data/gladeui-1.0.pc.in	2009-04-17 23:49:19.000000000 +0530
++++ glade3-3.6.2/data/gladeui-1.0.pc.in	2009-04-17 23:52:56.000000000 +0530
+@@ -13,6 +13,6 @@ Name: Glade
+ Description: Glade interface designer library
+ URL: http://glade.gnome.org
+ Version: @PACKAGE_VERSION@
+-Requires: gtk+-2.0 >= 2.14.0 libxml-2.0 >= 2.4.0
++Requires: gtk+-2.0 >= 2.14.0
+ Libs: -L${libdir} -lgladeui-1
+ Cflags: -I${includedir}
